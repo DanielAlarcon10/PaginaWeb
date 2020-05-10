@@ -1,0 +1,428 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-05-2020, 15:59:23
+    Author     : Daniel
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background-color: black;
+    color: goldenrod;  
+}
+h1{
+    text-align:center;
+}
+.menu{
+    background-color: black;
+}         
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    display: block;
+    padding: 10px 80px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: red;
+}
+
+body{
+  
+    background: url(../fondo/F3.jpg);
+   
+}
+
+.borde{
+    margin: 0px;
+    width: 1360px;
+}
+.instrumentos{
+   
+}
+.electricas{
+     display: flex;
+}
+.electricas h1{
+    color: white;
+    display: flex;
+}
+.otros{
+    
+}
+.gibson{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.gibson img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.gibson label{
+   display: flex;
+   margin: 10px;
+   border-style: solid;
+   border-color: #b8b8b8;
+
+   color: white;
+}
+.fender{
+   margin: 40px;
+   margin-top: 40px;
+   border-style: solid;
+   border-color:  #b8b8b8;
+   
+}
+.fender img{
+   border-style: solid;
+   border-color: #b8b8b8;
+   background: white;
+}
+.fender label{
+    display: flex;
+   margin: 10px;
+   border-style: solid;
+   border-color: #b8b8b8;
+  
+   color: white;
+}
+.ibanez{
+    margin: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.ibanez img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.ibanez label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    
+    color: white;
+}
+.yamaha{
+    margin: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.yamaha img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.yamaha label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    
+    color: white;
+}
+.acusticas{
+    display: flex;
+}
+.acusticas h1{
+    color: white;
+    display: flex;
+}
+.acusticas1{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.acusticas1 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.acusticas1 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+  
+    color: white;
+}
+.acusticas2{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: #b8b8b8;
+   
+}
+.acusticas2 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.acusticas2 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    
+    color: white;
+}
+.acusticas3{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    
+}
+.acusticas3 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.acusticas3 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+   
+    color: white;
+}
+.acusticas4{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.acusticas4 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.acusticas4 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.bajos{
+    display: flex;
+}
+.bajos h1{
+    color: white;
+    display: flex;
+}
+.bajos1{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+   
+}
+.bajos1 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.bajos1 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.bajos2{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+   
+}
+.bajos2 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.bajos2 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.bajos3{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.bajos3 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.bajos3 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.bajos4{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.bajos4 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.bajos4 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.baterias{
+    display: flex;
+}
+.baterias h1{
+    color: white;
+    display: flex;
+}
+.baterias1{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.baterias1 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.baterias1 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.baterias2{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.baterias2 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.baterias2 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.baterias3{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.baterias3 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.baterias3 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+.baterias4{
+    margin:40px;
+    margin-top: 40px;
+    border-style: solid;
+    border-color:  #b8b8b8;
+    
+}
+.baterias4 img{
+    border-style: solid;
+    border-color: #b8b8b8;
+    background: white;
+}
+.baterias4 label{
+    display: flex;
+    margin: 10px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    color: white;
+}
+diseño{
+    margin-bottom: 0px;
+}
+
+footer{
+    width: 100%;
+    background-color: #201e1e;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    display: block;
+    padding: 10px 80px;
+}
+row{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+h2{
+    font-size: 16px;
+}
+label{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: whitesmoke;
+}
